@@ -18,7 +18,7 @@ We trained multiple models, including Random Forest and XGBoost classifiers, usi
 
 **Results and Recommendations**
 
-The developed models achieved promising results in predicting driver attrition, with precision, recall, and F1 scores indicating effective performance. Insights from the model can guide Ola in implementing targeted retention strategies and addressing specific issues contributing to driver churn.
+The best-performing model, achieving a precision of 0.8056, recall of 0.8910, and F1 score of 0.8462, can be deployed for real-time predictions of driver churn, contributing to proactive retention strategies at Ola. Insights from the model can guide Ola in implementing targeted retention strategies and addressing specific issues contributing to driver churn.
 
 **Actionable Insights & Recommendations**
 
@@ -29,9 +29,3 @@ The developed models achieved promising results in predicting driver attrition, 
 3. **Address Demographic Trends** Focus on addressing issues specific to demographic groups with higher churn rates, such as younger drivers aged 20-35, and drivers in cities with higher churn rates like C20. Tailor retention strategies to meet the needs of these groups.
 
 4. **Investigate Low-Income Driver Issues** Analyze the reasons behind drivers dropping rides without attending and explore solutions to address these issues. Consider payment structures based on the number of rides per month to incentivize consistent driver participation.
-
-**Model Deployment**
-
-The best-performing model can be deployed for real-time predictions of driver churn. The trained model has been saved as a file ('driver_churn.sav') for easy deployment and integration into Ola's operational systems.
-
-By implementing these recommendations and deploying the predictive model, Ola can effectively mitigate the challenges of driver churn, improve driver retention rates, and ultimately enhance operational efficiency and customer satisfaction.
